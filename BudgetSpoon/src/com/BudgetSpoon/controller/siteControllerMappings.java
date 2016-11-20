@@ -191,8 +191,12 @@ public class siteControllerMappings {
 		//returning results to the results page
 		return new ModelAndView("resultspage", "restList", results);
 	}
-
-	//mapping user login
+	/**Mapping used when the login page is displayed
+	 * User enters their username and password as parameters
+	 * If the username credentials match then a list user's favorited restaurants is displayed
+	 * If credentials don't match user is asked to try again
+	 */
+	//mapping user login using username and password parameters
 	@RequestMapping(value = "userLogin", method = RequestMethod.POST)
 	public ModelAndView userLogin(@RequestParam("username") String username,
 			@RequestParam("password") String password, HttpSession httpsession) {
@@ -216,7 +220,7 @@ public class siteControllerMappings {
 			if (myRs.next()) {
 				httpsession.setAttribute("username", username);
 				return new ModelAndView("index", "favRest", username);
-				
+//if no username credentials match then message below is displayed			
 			} else
 				return new ModelAndView("LoginForm", "msg", "That username or password does not match our records. Please try again.");
 // catching the error and returning a msg that login failed
@@ -226,7 +230,10 @@ public class siteControllerMappings {
 		}
 
 	}
-	
+	/**Mapping used to direct user to their favorited restaurants after log in credentials are provided
+	 * 
+	 * 
+	 */
 	@RequestMapping(value = "userFavorites")
 	public ModelAndView showFavorites(HttpSession httpsession) {
 		
