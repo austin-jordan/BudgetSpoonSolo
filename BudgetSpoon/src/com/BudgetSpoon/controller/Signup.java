@@ -27,9 +27,9 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.BudgetSpoon.dao.RestaurantDao;
 
-/**
- * @author Priti
- *
+/**This is used by new restaurants wanting to signup to BudgetSpoon
+ * Uses the Restaurant signup form in order to pass values to the Restaurant constructor
+ *This information is then stored into the database
  */
 @Controller
 public class Signup {
