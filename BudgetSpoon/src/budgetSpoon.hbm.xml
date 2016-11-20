@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+<class name="com.BudgetSpoon.controller.Restaurants" table="restaurants" catalog="BudgetSpoonDB">
+		
+		<id name="id" type="int">
+			<column name="id" />
+			<generator class="increment"/>
+		</id>
+		
+		<property name="name" type="string">
+			<column name="name" not-null="true" unique="false" />
+		</property>
+		
+		<property name="streetAddress" type="string">
+			<column name="street_address" not-null="true" unique="false" />
+		</property>
+		
+		<property name="cityAddress" type="string">
+			<column name="city" not-null="true" unique="false" />
+		</property>
+		
+		<property name="zipcodeAddress" type="string">
+			<column name="zipcode" not-null="true" unique="false" />
+		</property>
+		
+		<property name="stateAddress" type="string">
+			<column name="state" not-null="true" unique="false" />
+		</property>
+		
+		<property name="cuisine" type="string">
+			<column name="cuisine" not-null="true" unique="false" />
+		</property>
+		
+		<property name="breakfast_price" type="double">
+			<column name="breakfast_price"/>
+		</property>
+		
+		<property name="lunch_price" type="double">
+			<column name="lunch_price"/>
+		</property>
+		
+		<property name="dinner_price" type="double">
+			<column name="dinner_price"/>
+		</property>
+		
+		<property name="emailAddress" type="string">
+			<column name="email"/>
+		</property>
+		
+		<property name="password" type="string">
+			<column name="password"/>
+		</property>
+		
+		<property name="website" type="string">
+			<column name="url"/>
+		</property>
+		
+	</class>
+	
+	<class name = "com.BudgetSpoon.controller.Users" table = "users" catalog = "BudgetSpoonDB">
+
+		<id name="id" type="int">
+			<column name="user_id" />
+			<generator class = "increment" />
+		</id>
+		
+		<property name = "username" type = "string">
+			<column name = "username" not-null = "true" unique = "false"/>
+		</property>
+		
+		<property name="password" type="string">
+			<column name="password"/>
+		</property>
+		
+		<property name="emailAddress" type="string">
+			<column name="email"/>
+		</property>
+		
+	</class>
+
+	<class name = "com.BudgetSpoon.controller.Favorite" table = "favorite" catalog = "BudgetSpoonDB">
+		<id name = "restaurant_id">
+			<column name = "restaurant_id" />
+		</id>
+		
+		<property name = "username" type = "string">
+			<column name = "username" />
+		</property>
+		
+	</class>
+	
+	
+</hibernate-mapping>

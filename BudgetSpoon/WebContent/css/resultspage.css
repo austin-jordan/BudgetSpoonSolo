@@ -1,0 +1,146 @@
+body {
+ /*  	background: url("Detroit.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-color: gray;
+    background-blend-mode: darken;*/ 
+    font-size: 18px;
+    font-family: montserrat;
+    color: black;
+    background-color: #FFFFFF;
+}
+
+nav {
+  color: #FFFFFF;
+  padding-top: 20px;
+  padding-left:20px;
+  padding-right: 20px;
+  height: 70px;
+  font-size: 25px;
+  background-color: #1F849F;
+  position: relative;
+}
+
+nav a {
+  padding-left: 20px;
+  text-decoration: none;
+  font-family: montserrat;
+  text-weight: bold;
+}
+
+#BudgetSpoon {
+  border: 2px solid #FFFFFF;
+  border-radius: 8px;
+  text-align: center;
+  padding: 5px;
+}
+
+
+.header-banner {
+	background-color: #FFFFFF;
+ /*  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("http://www.anothermonkeythai.com/wp-content/uploads/2015/06/rest3.jpg") no-repeat center center fixed;
+  background-size: cover;
+  background-blend-mode: darken; */
+  height: 120px;
+  text-align: center;
+  padding-bottom: 0px;
+  display: block;
+
+}
+
+.header-banner h3 {
+  font-size: 40px;
+  padding-top: 25px;
+  font-weight: bold;
+  margin: 0;
+}
+
+header-banner h4 {
+  font-size: 25px;
+  padding-top: 25px;
+  font-weight: bold;
+}
+
+.search-results-container {
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  margin: 0;
+}
+
+#view {
+	height: 100vh;
+}
+
+.row {
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+#results {
+	font-size: 15px;
+	background-color:F1F1F1;
+	height: 100vh;
+	overflow: scroll;
+	overflow-x:hidden;
+	/* border: 1px solid black; */
+}
+
+h3 {
+  font-family: montserrat;
+  color:	#680000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.search-results-container{
+  height: 100vh;
+}
+
+#search-list {
+  list-style-type: none;
+  height: 100vh;
+}
+
+.search-results-li {
+	display-inline: block;
+}
+
+#prices {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+h4 {
+  font-weight: bold;
+  color:	#680000;
+}
+a {
+  color:inherit;
+}
+
+
+#favoriting {
+	margin-top: 15px;
+	padding-left: 0px;
+	display: inline-block;
+	border-radius: 6px;
+	background: #E0E0E0;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#E0E0E0), to(#F8F8F8);
+	background: -webkit-linear-gradient(0% 0%, 0% 100%, from(#E0E0E0), to(#F8F8F8));
+}
+
+#globe {
+	height: 100vh;
+	width: 50vw;
+	margin: 0;
+}
+
+#globe a {
+	color: blue;	
+}
+#map {
+	margin: 0;
+}
+

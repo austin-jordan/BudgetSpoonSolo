@@ -1,0 +1,169 @@
+body {
+  text-align: center;
+  font-size: 14px;
+  color: black;
+  background-color: #FFFFFF;
+}
+
+nav {
+  color: #FFFFFF;
+  padding: 20px;
+  height: 70px;
+  font-size: 25px;
+  background-color: #1F849F;
+}
+
+nav a {
+  padding-left: 20px;
+  text-decoration: none;
+  color: inherit;
+  font-family: montserrat;
+  font-size: 25px;
+  text-weight: bold;
+}
+
+#BudgetSpoon {
+  border: 2px solid #FFFFFF;
+  border-radius: 8px;
+  text-align: center;
+  padding: 5px;
+}
+
+.header-banner {
+ /*  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("http://www.anothermonkeythai.com/wp-content/uploads/2015/06/rest3.jpg") no-repeat center center fixed;
+  background-size: cover;
+  background: darken; */
+  height: 180px;
+  text-align: center;
+  padding-bottom: 40px;
+  color: #949494;
+  line-height: 50px;
+
+}
+
+.form {
+	padding-top: 100px;
+}
+
+.title {
+  padding-bottom: 30px;
+}
+
+h2 {
+  color: #39424E;
+  padding-top: 50px;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+
+.container {
+  background-color: #F1F1F1;
+  width: 60%;
+  border: 1px solid #8C8C8C;
+}
+
+#signup {
+	padding-top: 20px;
+}
+.row {
+  justify-content: center;
+  padding-bottom: 70px;
+  display: flex;
+}
+#name {
+	padding: 40px;
+}
+
+label {
+  display: inline-block;
+  float: right;
+  clear: left;
+  width: 180px;
+}
+
+input {
+  display: inline-block;
+  margin-left: 10px;
+/*   float: left; */
+  width: 150px;
+  border-radius: 5px;
+
+
+}
+
+input.textbox {
+  width:260px;
+  height:40px;
+  position: inherit;
+  line-height:25px;
+  /*text-transform:uppercase;*/
+  /*text-align:center;*/
+  color:#333333;
+  cursor:pointer;
+  font-size:16px;
+  background:#FFFFFF;
+   padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+  letter-spacing:1px;
+}
+
+#second {
+}
+
+::-webkit-input-placeholder {
+	text-align: center;
+}
+#states {
+	width:100px;
+    height:40px;
+    position:relative;
+    /* margin:10px auto 100px; */
+    line-height:68px;
+    padding: 10px;
+ 	border: solid 1px #dcdcdc;
+  	transition: box-shadow 0.3s, border 0.3s;
+    text-align:center;
+    color:#333333;
+    cursor:pointer;
+    font-size:16px;
+    background:#FFFFFF;
+    margin-bottom: 10px;
+}
+
+#zip {
+  width: 260px;
+}
+
+#prices {
+  width: 130px;
+}
+
+#button {
+  justif-content: center;
+  text-align: center;
+  float: none;
+}
+
+input.submit {
+  width:150px;
+  height:35px;
+  position: relative;;
+  line-height:20px;
+  font-size:16px;
+  background:#FFFFFF;
+   padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+  text-transform:uppercase;
+  text-align:center;
+  color:#333333;
+  cursor:pointer;
+  font-size:16px;
+  letter-spacing:1px;
+}
+
+#globe {
+	width: 400px;
+}
