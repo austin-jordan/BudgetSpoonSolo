@@ -1,5 +1,6 @@
 package com.BudgetSpoon.controller;
-
+//This class is responsible for creating the favorite object which is used to represent user favorited restaurants
+//Takes in the username of the user logged in as well as the restaurant id of the restaurant
 public class Favorite {
 
 		private String username;
