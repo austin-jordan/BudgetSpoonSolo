@@ -26,7 +26,10 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.BudgetSpoon.dao.FavoriteDao;
 import com.BudgetSpoon.dao.RestaurantDao;
-
+/** This controller provides the mapping for all of the BudgetSpoon site.
+ * Provides the mapping to direct the user from index.jsp to resultspage.jsp.
+ * Provides the mapping for logging in and logging out, as well as mapping for Favoriting restaurants
+ */
 
 @Controller
 public class siteControllerMappings {
