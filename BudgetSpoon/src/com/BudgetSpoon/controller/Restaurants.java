@@ -1,5 +1,8 @@
 package com.BudgetSpoon.controller;
-
+/**This class is used as a constructor for Restaurant objects
+ * It takes in all the variables necessary for Restaurants
+ * Hibernate then maps these restaurant objects to the database
+ */
 public class Restaurants {
 
 	private int id;
