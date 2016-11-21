@@ -230,9 +230,8 @@ public class siteControllerMappings {
 		}
 
 	}
-	/**Mapping used to direct user to their favorited restaurants after log in credentials are provided
-	 * 
-	 * 
+	/**Mapping used to direct user to a list of favorited restaurants after log in credentials are provided
+	 * Uses username given to match to restaurant ids that are in Favorite table
 	 */
 	@RequestMapping(value = "userFavorites")
 	public ModelAndView showFavorites(HttpSession httpsession) {
