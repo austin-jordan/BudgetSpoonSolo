@@ -9,8 +9,8 @@ import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
 import com.BudgetSpoon.controller.Favorite;
-/**This DAO or Data Access Object abstracts the retrieval of data from the database.
- * This prevents complications being caused from the source of data being changed.
+/**Dao = data access object. This is the file where we'll create an object that accesses some information inside of our database.
+ *Dao's encapsulate the logic for retrieving, saving, and updating data in a database.
  */
 public class FavoriteDao {
 
