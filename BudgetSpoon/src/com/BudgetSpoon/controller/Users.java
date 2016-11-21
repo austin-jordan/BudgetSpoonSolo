@@ -1,5 +1,7 @@
 package com.BudgetSpoon.controller;
-
+/**This class is used to create the Array of Users of the User class
+ * These users are all stored in the database 
+ */
 public class Users {
 
 	private int id;
